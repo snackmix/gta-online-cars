@@ -38,11 +38,14 @@
                         <th>Vehicle Class</th>
                         <th>
                             Vehicle Name
-                            <i class="far fa-question-circle" v-b-popover.hover.html="vehicleHelp" title="Vehicle Help"></i>
+                            <i class="far fa-question-circle" v-b-popover.hover.html="help.stats"></i>
                         </th>
                         <th>Buy Price</th>
                         <th>Sell Price</th>
-                        <th>Stealable</th>
+                        <th>
+                            Stealable
+                            <i class="far fa-question-circle" v-b-popover.hover.html="help.stealable"></i>
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -74,7 +77,10 @@
     export default {
         data() {
             return {
-                vehicleHelp: 'The second badge below the vehicle name are the stats.<br>Speed - Acceleration - Brake - Handling',
+                help: {
+                    stats: 'The second badge below the vehicle name are the stats.<br>Speed - Acceleration - Brake - Handling',
+                    stealable: 'This means you are able to store the vehicle in your garage or bring it to customs to modify.'
+                },
                 search: {
                     text: null,
                     stealable: null,
