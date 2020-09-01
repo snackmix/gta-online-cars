@@ -1,28 +1,32 @@
 $font-family-monospace: Courier New, monospace;
 $font-family-sans-serif: Karla, sans-serif;
 $font-size-base: 1.0rem;
+
 $enable-rounded: true;
+
 $white: #fff;
 $gray-100: #fafafa;
 $gray-200: #f0f0f0;
 $gray-300: #e6e6e6;
-$gray-400: #cdcddc;
+$gray-400: #c8c8dc;
 $gray-500: #aab4be;
-$gray-600: #73787d;
+$gray-600: #787878;
 $gray-700: #464646;
-$gray-800: #373c41;
-$gray-900: #232323;
+$gray-800: #3c3c46;
+$gray-900: #282828;
+
 $black: #000;
-$blue: #0078ff;
+$blue: #0078fa;
 $indigo: #643cf0;
-$purple: #735ac3;
+$purple: #785abe;
 $pink: #e63c8c;
-$red: #fa3737;
-$orange: #fa7d14;
-$yellow: #f0a51e;
-$green: #14b955;
+$red: #fa3c3c;
+$orange: #fa7814;
+$yellow: #f0b41e;
+$green: #14b45a;
 $teal: #1ec896;
-$cyan: #009bdc;
+$cyan: #00a0dc;
+
 $primary: $blue;
 $secondary: $cyan;
 $success: $green;
@@ -31,29 +35,38 @@ $warning: $yellow;
 $danger: $red;
 $light: $gray-200;
 $dark: $gray-900;
+
 $body-bg: $white;
 $body-color: $gray-900;
+
 $card-bg: $gray-200;
+
 $code-font-size: $font-size-base;
+
 $dropdown-box-shadow: 0 0.5rem 0.8rem rgba($black, 0.4);
 $dropdown-link-color: $gray-700;
 $dropdown-link-hover-bg: $gray-300;
 $dropdown-link-hover-color: $gray-700;
+
 $input-bg: $white;
 $input-color: $gray-700;
 $input-focus-bg: $gray-200;
 $input-focus-border-color: $primary;
 $input-focus-box-shadow: 0 0 0 0.2rem rgba($primary, 0.4);
 $input-focus-color: $gray-700;
+
 $list-group-active-bg: $gray-900;
 $list-group-active-color: $white;
 $list-group-bg: $gray-300;
 $list-group-border-color: transparent;
 $list-group-disabled-color: lighten($list-group-bg, 30%);
 $list-group-hover-bg: darken($list-group-bg, 10%);
+
 $link-hover-color: $primary;
+
 $nav-tabs-border-color: $gray-300;
 $nav-tabs-link-hover-border-color: $primary;
+
 $navbar-dark-active-color: rgba($white, 0.8);
 $navbar-dark-color: rgba($white, 0.4);
 $navbar-dark-disabled-color: rgba($white, 0.2);
@@ -64,9 +77,8 @@ $navbar-light-disabled-color: rgba($black, 0.2);
 $navbar-light-hover-color: rgba($black, 0.6);
 $navbar-padding-x: 1.0rem;
 $navbar-padding-y: 0.5rem;
+
 $progress-bar-bg: $primary;
 $progress-bg: $gray-300;
+
 $table-border-color: rgba(0, 0, 0, 0.05);
-$tooltip-arrow-height: 0;
-$tooltip-bg: $gray-700;
-$tooltip-font-size: 0.8rem;

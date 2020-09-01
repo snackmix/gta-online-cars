@@ -2,12 +2,11 @@ import BootstrapVue from 'bootstrap-vue';
 import VueModal from 'vue-js-modal';
 import NumberFormat from 'vue-filter-number-format';
 
-require('./core/index');
 require('./core/bootstrap');
 window.Vue = require('vue');
 
 Vue.use(BootstrapVue);
-Vue.use(VueModal, App.Modals.Options);
+Vue.use(VueModal, Options.Modals);
 
 Vue.filter('num_format', NumberFormat);
 

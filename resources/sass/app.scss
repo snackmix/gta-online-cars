@@ -1,1 +1,85 @@
 @import "theme";
+
+.search-header {
+    font-size: 12px;
+    line-height: 1;
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.45em 0.6em;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+    border-radius: 0.25rem;
+    background-color: $primary;
+}
+
+.car-card {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+
+    &:hover {
+        cursor: pointer;
+        transition: all 0.3s;
+        transform: translate(3px, 3px);
+        box-shadow: 0 0 6px rgba($black, 0.4);
+    }
+
+    .manufacturer {
+        font-size: 12px;
+        position: absolute;
+        padding: 0.3em 0.6em;
+        color: $white;
+        background-color: $primary;
+    }
+
+    .seats {
+        font-size: 12px;
+        position: absolute;
+        right: 0;
+        padding: 0.3em 0.6em;
+        opacity: 0.6;
+        color: $white;
+        background-color: $dark;
+    }
+
+    .price-badges {
+        font-size: 15px;
+        position: absolute;
+        right: 0;
+    }
+
+    .item-stats {
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        li {
+            display: inline-block;
+            box-sizing: border-box;
+            width: 15%;
+            padding: 0 2px;
+            vertical-align: top;
+
+            .field-label {
+                font-size: 11px;
+                display: block;
+                opacity: 0.8;
+            }
+
+            .field-value {
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.car-details {
+    margin-bottom: 0;
+
+    td:first-child {
+        font-weight: bold;
+    }
+}
