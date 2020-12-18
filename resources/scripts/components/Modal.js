@@ -10,16 +10,6 @@ class Modal {
         this.width = 0.5;
     }
 
-    nonCloseable() {
-        this.closable = false;
-        return this;
-    }
-
-    largeSize() {
-        this.width = 0.8;
-        return this;
-    }
-
     event(name, event) {
         set(this.events, name, event);
     }

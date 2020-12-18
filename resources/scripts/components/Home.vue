@@ -30,6 +30,13 @@
                     </select>
                 </div>
                 <div class="form-group">
+                    <div class="search-header">Title Update</div>
+                    <select class="form-control" v-model="search.title">
+                        <option :value="null"></option>
+                        <option v-for="item in reduceMany('title_update')">{{ item }}</option>
+                    </select>
+                </div>
+                <div class="form-group">
                     <div class="search-header">Vehicle Class</div>
                     <b-form-checkbox-group v-model="search.class" :options="reduceMany('vehicle_class')" stacked></b-form-checkbox-group>
                 </div>
@@ -110,7 +117,7 @@
 <script>
     import axios from 'axios';
     import ignoreCase from 'ignore-case';
-    import {add, get, isEmpty, lte, orderBy, slice} from 'lodash';
+    import {add, get, lte, orderBy, slice} from 'lodash';
     import Modal from './Modal';
     import CarDetails from './CarDetails';
 
@@ -119,12 +126,13 @@
             return {
                 search: {
                     text: null,
+                    based: null,
                     sell: new Array,
                     class: new Array,
                     storage: new Array,
                     drivetrain: null,
                     manufacturer: null,
-                    based: null,
+                    title: null,
                     max_price: 10000000,
                     sort: 1
                 },
@@ -176,26 +184,30 @@
             filtered() {
                 const sm = this;
                 return sm.cars.filter(function (item) {
-                    if (isEmpty(sm.search.text)) return true;
+                    if (sm.search.text == null) return true;
                     return ignoreCase.includes(item.name, sm.search.text);
                 }).filter(function (item) {
-                    if (isEmpty(sm.search.based)) return true;
+                    if (sm.search.based == null) return true;
                     return ignoreCase.includes(item.based_on, sm.search.based);
                 }).filter(function (item) {
-                    if (isEmpty(sm.search.class)) return true;
+                    if (sm.search.class.length == 0) return true;
                     return item.vehicle_class.hasAny(sm.search.class);
                 }).filter(function (item) {
-                    if (isEmpty(sm.search.sell)) return true;
+                    if (sm.search.sell.length == 0) return true;
                     return item.sell.hasAny(sm.search.sell);
                 }).filter(function (item) {
-                    if (isEmpty(sm.search.storage)) return true;
+                    if (sm.search.storage.length == 0) return true;
+                    if (item.storage_location == null) return false;
                     return item.storage_location.hasAny(sm.search.storage);
                 }).filter(function (item) {
-                    if (isEmpty(sm.search.drivetrain)) return true;
+                    if (sm.search.drivetrain == null) return true;
                     return item.drivetrain == sm.search.drivetrain;
                 }).filter(function (item) {
-                    if (isEmpty(sm.search.manufacturer)) return true;
+                    if (sm.search.manufacturer == null) return true;
                     return item.manufacturer == sm.search.manufacturer;
+                }).filter(function (item) {
+                    if (sm.search.title == null) return true;
+                    return item.title_update == sm.search.title;
                 }).filter(function (item) {
                     return lte(item.purchase_price, sm.search.max_price);
                 });

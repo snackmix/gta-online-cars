@@ -2,39 +2,39 @@ $font-family-monospace: Monaco, Courier New, monospace;
 $font-family-sans-serif: Karla, sans-serif;
 $font-size-base: 1.0rem;
 
-$enable-rounded: true;
+$white: #fff;
+$gray-100: #f5f5fa;
+$gray-200: #e1e6e6;
+$gray-300: #d2d7dc;
+$gray-400: #96a0a5;
+$gray-500: #69787d;
+$gray-600: #5a5f69;
+$gray-700: #414b55;
+$gray-800: #2d373c;
+$gray-900: #23282d;
+$black: #000;
 
-$white: #ffffff;
-$gray-100: #f5fafa;
-$gray-200: #e6ebf0;
-$gray-300: #dce1e6;
-$gray-400: #cdcddc;
-$gray-500: #afb4be;
-$gray-600: #647878;
-$gray-700: #41464b;
-$gray-800: #373741;
-$gray-900: #28282d;
-$black: #000000;
+$blue: #0064d7;
+$indigo: #6900ff;
+$purple: #6941be;
+$pink: #eb4baa;
+$red: #d73c46;
+$orange: #f5690a;
+$yellow: #ffcd3c;
+$green: #28a546;
+$teal: #1ec896;
+$cyan: #148cb9;
 
-$blue: #0078fa;
-$indigo: #643cf0;
-$purple: #785abe;
-$pink: #e63c8c;
-$red: #f03c3c;
-$orange: #fa7814;
-$yellow: #f0dc3c;
-$green: #3cc882;
-$teal: #1496a0;
-$cyan: #00a0dc;
-
-$primary: $blue;
-$secondary: $cyan;
+$primary: $cyan;
+$secondary: $gray-600;
 $success: $green;
-$info: $cyan;
+$info: $blue;
 $warning: $yellow;
 $danger: $red;
 $light: $gray-200;
-$dark: $gray-900;
+$dark: $gray-800;
+
+$enable-rounded: true;
 
 $body-bg: $white;
 $body-color: $gray-900;

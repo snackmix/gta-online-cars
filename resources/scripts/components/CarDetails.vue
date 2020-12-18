@@ -11,7 +11,7 @@
                     <td>Vehicle Class</td>
                     <td>{{ car.vehicle_class.join(', ') }}</td>
                 </tr>
-                <tr>
+                <tr v-if="car.manufacturer">
                     <td>Manufacturer</td>
                     <td>{{ car.manufacturer }}</td>
                 </tr>
@@ -23,11 +23,11 @@
                     <td>Purchase Price</td>
                     <td>{{ car.purchase_price | num_format }}</td>
                 </tr>
-                <tr>
+                <tr v-if="car.storage_location">
                     <td>Storage Location</td>
                     <td>{{ car.storage_location.join(', ') }}</td>
                 </tr>
-                <tr>
+                <tr v-if="car.modifications">
                     <td>Modifications</td>
                     <td>{{ car.modifications.join(', ') }}</td>
                 </tr>
@@ -35,19 +35,19 @@
                     <td>Sell</td>
                     <td>{{ car.sell.join(', ') }}</td>
                 </tr>
-                <tr>
+                <tr v-if="car.resale_sell_price > 0">
                     <td>Sell Price - Resale</td>
                     <td>{{ car.resale_sell_price | num_format }}</td>
                 </tr>
-                <tr>
+                <tr v-if="car.stolen_sell_price > 0">
                     <td>Sell Price - Stolen</td>
                     <td>{{ car.stolen_sell_price | num_format }}</td>
                 </tr>
-                <tr>
+                <tr v-if="car.top_speed_game_files > 0">
                     <td>Top Speed</td>
                     <td>{{ car.top_speed_game_files }} KMH</td>
                 </tr>
-                <tr>
+                <tr v-if="car.based_on">
                     <td>Based On</td>
                     <td>{{ car.based_on }}</td>
                 </tr>
@@ -116,6 +116,6 @@
 
 <script>
     export default {
-        props: Array('car')
+        props: ['car']
     };
 </script>
