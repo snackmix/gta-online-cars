@@ -1,30 +1,30 @@
-$font-family-monospace: Courier New, monospace;
+$font-family-monospace: Monaco, Courier New, monospace;
 $font-family-sans-serif: Karla, sans-serif;
 $font-size-base: 1.0rem;
 
 $enable-rounded: true;
 
-$white: #fff;
-$gray-100: #fafafa;
-$gray-200: #f0f0f0;
-$gray-300: #e6e6e6;
-$gray-400: #c8c8dc;
-$gray-500: #aab4be;
-$gray-600: #787878;
-$gray-700: #464646;
-$gray-800: #3c3c46;
-$gray-900: #282828;
+$white: #ffffff;
+$gray-100: #f5fafa;
+$gray-200: #e6ebf0;
+$gray-300: #dce1e6;
+$gray-400: #cdcddc;
+$gray-500: #afb4be;
+$gray-600: #647878;
+$gray-700: #41464b;
+$gray-800: #373741;
+$gray-900: #28282d;
+$black: #000000;
 
-$black: #000;
 $blue: #0078fa;
 $indigo: #643cf0;
 $purple: #785abe;
 $pink: #e63c8c;
-$red: #fa3c3c;
+$red: #f03c3c;
 $orange: #fa7814;
-$yellow: #f0b41e;
-$green: #14b45a;
-$teal: #1ec896;
+$yellow: #f0dc3c;
+$green: #3cc882;
+$teal: #1496a0;
 $cyan: #00a0dc;
 
 $primary: $blue;
@@ -81,4 +81,4 @@ $navbar-padding-y: 0.5rem;
 $progress-bar-bg: $primary;
 $progress-bg: $gray-300;
 
-$table-border-color: rgba(0, 0, 0, 0.05);
+$table-border-color: rgba($black, 0.05);
