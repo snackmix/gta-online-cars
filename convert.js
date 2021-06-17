@@ -15,8 +15,11 @@ function saveCarsData(cars) {
         delete car.catid;
         delete car.catslug;
         delete car.featured;
+        delete car.hits;
         delete car.lang;
         delete car.slug;
+        delete car.thumbnail_height;
+        delete car.thumbnail_width;
         car.thumbnail = format('https://www.gtabase.com/%s', car.thumbnail);
         car.vehicle_class = car.attr.ct1.frontend_value;
         car.manufacturer = get(car, 'attr.ct2.frontend_value.0', null);
