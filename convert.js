@@ -1,7 +1,7 @@
 const fs = require('fs');
 const axios = require('axios');
 const {format} = require('util');
-const {get} = require('lodash');
+const {get, round} = require('lodash');
 
 axios.get('https://www.gtabase.com/media/com_jamegafilter/en_gb/1.json').then(function (response) {
     const cars = Object.values(response.data);
@@ -25,11 +25,11 @@ function saveCarsData(cars) {
         car.manufacturer = get(car, 'attr.ct2.frontend_value.0', null);
         car.release_date = get(car, 'attr.ct3.frontend_value.0');
         car.title_update = get(car, 'attr.ct4.frontend_value.0');
-        car.speed = getFloat(car, 'attr.ct6.frontend_value', 0);
-        car.acceleration = getFloat(car, 'attr.ct7.frontend_value', 0);
-        car.braking = getFloat(car, 'attr.ct8.frontend_value', 0);
-        car.handling = getFloat(car, 'attr.ct9.frontend_value', 0);
-        car.overall_rating = getFloat(car, 'attr.ct10.frontend_value', 0);
+        car.speed = floatRound(car, 'attr.ct6.frontend_value', 0);
+        car.acceleration = floatRound(car, 'attr.ct7.frontend_value', 0);
+        car.braking = floatRound(car, 'attr.ct8.frontend_value', 0);
+        car.handling = floatRound(car, 'attr.ct9.frontend_value', 0);
+        car.overall_rating = floatRound(car, 'attr.ct10.frontend_value', 0);
         car.seats = getInteger(car, 'attr.ct11.frontend_value.0', 0);
         car.available_from = car.attr.ct12.frontend_value;
         car.purchase_price = getInteger(car, 'attr.ct13.frontend_value', 0);
@@ -65,4 +65,9 @@ function getInteger(data, path, defaults) {
 function getFloat(data, path, defaults) {
     const value = get(data, path, defaults);
     return parseFloat(value);
+}
+
+function floatRound(data, path, defaults) {
+    const value = getFloat(data, path, defaults);
+    return round(value, 2);
 }
