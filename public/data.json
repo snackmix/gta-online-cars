@@ -1,5 +1,736 @@
 [
     {
+        "id": "3759",
+        "name": "Previon",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/temp/resized/previon_320x180.jpg",
+        "vehicle_class": [
+            "Coupes"
+        ],
+        "manufacturer": "Karin",
+        "release_date": 1631138400,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 0,
+        "acceleration": 0,
+        "braking": 0,
+        "handling": 0,
+        "overall_rating": 0,
+        "seats": 2,
+        "available_from": [
+            "Southern S.A. Super Autos"
+        ],
+        "purchase_price": 1490000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 894000,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 1300,
+        "drivetrain": "Rear-Wheel Drive",
+        "gears": 5,
+        "modifications": [
+            "LS Car Meet Mod Shop",
+            "Los Santos Customs"
+        ],
+        "based_on": "Lexus SC 300 (Z30) / Toyota Soarer (Z30)",
+        "top_speed_real": 115.5,
+        "game_model_name": null
+    },
+    {
+        "id": "3758",
+        "name": "Sultan RS Classic",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/temp/resized/sultan-rs-classic_320x180.jpg",
+        "vehicle_class": [
+            "Sports"
+        ],
+        "manufacturer": "Karin",
+        "release_date": 1629928800,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 78.604767,
+        "acceleration": 84.625,
+        "braking": 17.333334,
+        "handling": 75.606064,
+        "overall_rating": 64.042291,
+        "seats": 2,
+        "available_from": [
+            "Southern S.A. Super Autos"
+        ],
+        "purchase_price": 1789000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 1073400,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 1150,
+        "drivetrain": "All-Wheel Drive",
+        "gears": 5,
+        "modifications": [
+            "LS Car Meet Mod Shop",
+            "Los Santos Customs"
+        ],
+        "based_on": "Subaru Impreza 22B STI",
+        "top_speed_real": 117.5,
+        "game_model_name": null
+    },
+    {
+        "id": "3757",
+        "name": "Dominator ASP",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/temp/resized/dominator-asp_320x180.jpg",
+        "vehicle_class": [
+            "Muscle"
+        ],
+        "manufacturer": "Vapid",
+        "release_date": 1628114400,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 80.885117,
+        "acceleration": 85.5,
+        "braking": 30.666668,
+        "handling": 100,
+        "overall_rating": 74.262946,
+        "seats": 2,
+        "available_from": [
+            "Southern S.A. Super Autos"
+        ],
+        "purchase_price": 1775000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 1065000,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 1665,
+        "drivetrain": "Rear-Wheel Drive",
+        "gears": 5,
+        "modifications": [
+            "Los Santos Customs",
+            "LS Car Meet Mod Shop"
+        ],
+        "based_on": "Ford Mustang SVT Cobra R (New Edge)",
+        "top_speed_real": 119,
+        "game_model_name": null
+    },
+    {
+        "id": "3756",
+        "name": "Cypher",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/temp/resized/cypher_320x180.jpg",
+        "vehicle_class": [
+            "Sports"
+        ],
+        "manufacturer": "Übermacht",
+        "release_date": 1630533600,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 79.329117,
+        "acceleration": 81.5,
+        "braking": 23.333334,
+        "handling": 78.484848,
+        "overall_rating": 65.661825,
+        "seats": 2,
+        "available_from": [
+            "Legendary Motorsport"
+        ],
+        "purchase_price": 1550000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 930000,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 1625,
+        "drivetrain": "Rear-Wheel Drive",
+        "gears": 6,
+        "modifications": [
+            "LS Car Meet Mod Shop",
+            "Los Santos Customs"
+        ],
+        "based_on": "BMW M2 (F87) with some design cues from the BMW M6 (F13) and BMW M8 (F92)",
+        "top_speed_real": 113.5,
+        "game_model_name": null
+    },
+    {
+        "id": "3755",
+        "name": "Growler",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/temp/resized/growler_320x180.jpg",
+        "vehicle_class": [
+            "Sports"
+        ],
+        "manufacturer": "Pfister",
+        "release_date": 1629324000,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 82.548431,
+        "acceleration": 83.4375,
+        "braking": 28,
+        "handling": 79.696976,
+        "overall_rating": 68.420727,
+        "seats": 2,
+        "available_from": [
+            "Legendary Motorsport"
+        ],
+        "purchase_price": 1627000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 976200,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 1420,
+        "drivetrain": "Rear-Wheel Drive",
+        "gears": 7,
+        "modifications": [
+            "LS Car Meet Mod Shop",
+            "Los Santos Customs"
+        ],
+        "based_on": "Porsche 718 Cayman",
+        "top_speed_real": 121.5,
+        "game_model_name": null
+    },
+    {
+        "id": "3754",
+        "name": "Vectre",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/temp/resized/vectre_320x180.jpg",
+        "vehicle_class": [
+            "Sports"
+        ],
+        "manufacturer": "Emperor",
+        "release_date": 1628719200,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 79.677879,
+        "acceleration": 81,
+        "braking": 20,
+        "handling": 79.848488,
+        "overall_rating": 65.131592,
+        "seats": 2,
+        "available_from": [
+            "Legendary Motorsport"
+        ],
+        "purchase_price": 1785000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 1071000,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 1765,
+        "drivetrain": "All-Wheel Drive",
+        "gears": 8,
+        "modifications": [
+            "Los Santos Customs",
+            "LS Car Meet Mod Shop"
+        ],
+        "based_on": "Lexus RC F",
+        "top_speed_real": 115.25,
+        "game_model_name": null
+    },
+    {
+        "id": "3753",
+        "name": "Comet S2",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/temp/resized/comet-s2_320x180.jpg",
+        "vehicle_class": [
+            "Sports"
+        ],
+        "manufacturer": "Pfister",
+        "release_date": 1627509600,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 83.916626,
+        "acceleration": 86.499992,
+        "braking": 29.333332,
+        "handling": 100,
+        "overall_rating": 74.937488,
+        "seats": 2,
+        "available_from": [
+            "Legendary Motorsport"
+        ],
+        "purchase_price": 1878000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 1126800,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 1550,
+        "drivetrain": "Rear-Wheel Drive",
+        "gears": 7,
+        "modifications": [
+            "LS Car Meet Mod Shop",
+            "Los Santos Customs"
+        ],
+        "based_on": "Porsche 992",
+        "top_speed_real": 123,
+        "game_model_name": null
+    },
+    {
+        "id": "3744",
+        "name": "Remus",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/sports/main/resized/remus_320x180.jpg",
+        "vehicle_class": [
+            "Sports"
+        ],
+        "manufacturer": "Annis",
+        "release_date": 1626732000,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 78.765747,
+        "acceleration": 81.75,
+        "braking": 29.999998,
+        "handling": 100,
+        "overall_rating": 72.628936,
+        "seats": 2,
+        "available_from": [
+            "Southern S.A. Super Autos"
+        ],
+        "purchase_price": 1370000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 822000,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 1105,
+        "drivetrain": "Rear-Wheel Drive",
+        "gears": 5,
+        "modifications": [
+            "Los Santos Customs",
+            "LS Car Meet Mod Shop"
+        ],
+        "based_on": "Nissan Silvia S13",
+        "top_speed_real": 115.5,
+        "game_model_name": null
+    },
+    {
+        "id": "3743",
+        "name": "Jester RR",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/sports/main/resized/jester-rr_320x180.jpg",
+        "vehicle_class": [
+            "Sports"
+        ],
+        "manufacturer": "Dinka",
+        "release_date": 1626732000,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 81.824081,
+        "acceleration": 82.275002,
+        "braking": 28.333334,
+        "handling": 78.484848,
+        "overall_rating": 67.729316,
+        "seats": 2,
+        "available_from": [
+            "Legendary Motorsport"
+        ],
+        "purchase_price": 1970000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 1182000,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 1575,
+        "drivetrain": "Rear-Wheel Drive",
+        "gears": 8,
+        "modifications": [
+            "Los Santos Customs",
+            "LS Car Meet Mod Shop"
+        ],
+        "based_on": "Toyota Supra",
+        "top_speed_real": 125,
+        "game_model_name": null
+    },
+    {
+        "id": "3742",
+        "name": "Tailgater S",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/sports/main/resized/tailgater-s_320x180.jpg",
+        "vehicle_class": [
+            "Sedans"
+        ],
+        "manufacturer": "Obey",
+        "release_date": 1626732000,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 79.329117,
+        "acceleration": 69.375,
+        "braking": 29.333332,
+        "handling": 78.636368,
+        "overall_rating": 64.168454,
+        "seats": 4,
+        "available_from": [
+            "Legendary Motorsport"
+        ],
+        "purchase_price": 1495000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 897000,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 1340,
+        "drivetrain": "Rear-Wheel Drive",
+        "gears": 6,
+        "modifications": [
+            "Los Santos Customs",
+            "LS Car Meet Mod Shop"
+        ],
+        "based_on": "Audi RS3 Sedan",
+        "top_speed_real": 115.75,
+        "game_model_name": null
+    },
+    {
+        "id": "3741",
+        "name": "Warrener HKR",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/sedans/main/resized/warrener-hkr_320x180.jpg",
+        "vehicle_class": [
+            "Sedans"
+        ],
+        "manufacturer": "Vulcar",
+        "release_date": 1626732000,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 78.336494,
+        "acceleration": 66.25,
+        "braking": 31.666666,
+        "handling": 65.454552,
+        "overall_rating": 60.426928,
+        "seats": 2,
+        "available_from": [
+            "Southern S.A. Super Autos"
+        ],
+        "purchase_price": 1260000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 756000,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 965,
+        "drivetrain": "Rear-Wheel Drive",
+        "gears": 5,
+        "modifications": [
+            "Los Santos Customs",
+            "LS Car Meet Mod Shop"
+        ],
+        "based_on": "1974 Nissan/Datsun Sunny \"Hakotora\"",
+        "top_speed_real": 106.5,
+        "game_model_name": null
+    },
+    {
+        "id": "3740",
+        "name": "RT3000",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/sports/main/resized/rt3000_320x180.jpg",
+        "vehicle_class": [
+            "Sports"
+        ],
+        "manufacturer": "Dinka",
+        "release_date": 1626732000,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 79.946152,
+        "acceleration": 78,
+        "braking": 33.333336,
+        "handling": 78.181816,
+        "overall_rating": 67.365326,
+        "seats": 2,
+        "available_from": [
+            "Southern S.A. Super Autos"
+        ],
+        "purchase_price": 1715000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 1029000,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 1275,
+        "drivetrain": "Rear-Wheel Drive",
+        "gears": 6,
+        "modifications": [
+            "Los Santos Customs",
+            "LS Car Meet Mod Shop"
+        ],
+        "based_on": "Honda S2000",
+        "top_speed_real": 119.25,
+        "game_model_name": null
+    },
+    {
+        "id": "3739",
+        "name": "ZR350",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/sports/main/resized/zr350_320x180.jpg",
+        "vehicle_class": [
+            "Sports"
+        ],
+        "manufacturer": "Annis",
+        "release_date": 1626732000,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 80.375389,
+        "acceleration": 82.500008,
+        "braking": 28.333334,
+        "handling": 75.303032,
+        "overall_rating": 66.627941,
+        "seats": 2,
+        "available_from": [
+            "Legendary Motorsport"
+        ],
+        "purchase_price": 1615000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 969000,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 1300,
+        "drivetrain": "Rear-Wheel Drive",
+        "gears": 5,
+        "modifications": [
+            "Los Santos Customs",
+            "LS Car Meet Mod Shop"
+        ],
+        "based_on": "1992-2002 Mazda RX-7 (FD)",
+        "top_speed_real": 117.5,
+        "game_model_name": null
+    },
+    {
+        "id": "3738",
+        "name": "Dominator GTT",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/muscle/main/resized/dominator-gtt_320x180.jpg",
+        "vehicle_class": [
+            "Muscle"
+        ],
+        "manufacturer": "Vapid",
+        "release_date": 1626732000,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 77.424362,
+        "acceleration": 75.675003,
+        "braking": 25,
+        "handling": 75.757576,
+        "overall_rating": 63.464235,
+        "seats": 2,
+        "available_from": [
+            "Southern S.A. Super Autos"
+        ],
+        "purchase_price": 1220000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 732000,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 1465,
+        "drivetrain": "Rear-Wheel Drive",
+        "gears": 4,
+        "modifications": [
+            "LS Car Meet Mod Shop",
+            "Los Santos Customs"
+        ],
+        "based_on": "1969-1970 Ford Mustang",
+        "top_speed_real": 115.5,
+        "game_model_name": null
+    },
+    {
+        "id": "3737",
+        "name": "Euros",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/sports/main/resized/euros_320x180.jpg",
+        "vehicle_class": [
+            "Sports"
+        ],
+        "manufacturer": "Annis",
+        "release_date": 1626732000,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 80.402222,
+        "acceleration": 81,
+        "braking": 29.999998,
+        "handling": 77.621216,
+        "overall_rating": 67.255859,
+        "seats": 2,
+        "available_from": [
+            "Legendary Motorsport"
+        ],
+        "purchase_price": 1800000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 1080000,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 1466,
+        "drivetrain": "Rear-Wheel Drive",
+        "gears": 7,
+        "modifications": [
+            "Los Santos Customs",
+            "LS Car Meet Mod Shop"
+        ],
+        "based_on": "Nissan 350Z and Nissan 370Z",
+        "top_speed_real": 116.5,
+        "game_model_name": null
+    },
+    {
+        "id": "3736",
+        "name": "Futo GTX",
+        "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/sports/main/resized/futo-gtx_320x180.jpg",
+        "vehicle_class": [
+            "Sports"
+        ],
+        "manufacturer": "Karin",
+        "release_date": 1626732000,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 73.507538,
+        "acceleration": 74.125,
+        "braking": 17.5,
+        "handling": 63.484848,
+        "overall_rating": 57.154347,
+        "seats": 2,
+        "available_from": [
+            "Southern S.A. Super Autos"
+        ],
+        "purchase_price": 1590000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 954000,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 950,
+        "drivetrain": "Rear-Wheel Drive",
+        "gears": 5,
+        "modifications": [
+            "Los Santos Customs",
+            "LS Car Meet Mod Shop"
+        ],
+        "based_on": "Toyota Sprinter Trueno AE86",
+        "top_speed_real": 119.75,
+        "game_model_name": null
+    },
+    {
+        "id": "3735",
+        "name": "Calico GTF",
+        "thumbnail": "https://www.gtabase.com/igallery/7401-7500/resized/GTAOnline_Vehicle_CalicoGTF_Action-7483-360_320x180.jpg",
+        "vehicle_class": [
+            "Sports"
+        ],
+        "manufacturer": "Karin",
+        "release_date": 1626732000,
+        "title_update": "1.57 Los Santos Tuners",
+        "speed": 80.348564,
+        "acceleration": 84.625,
+        "braking": 27.5,
+        "handling": 100,
+        "overall_rating": 73.118391,
+        "seats": 2,
+        "available_from": [
+            "Southern S.A. Super Autos"
+        ],
+        "purchase_price": 1995000,
+        "sell": [
+            "Can be sold only if purchased (High-End)"
+        ],
+        "resale_sell_price": 1197000,
+        "stolen_sell_price": 0,
+        "storage_location": [
+            "Garage (Personal Vehicle)"
+        ],
+        "vehicle_features": [
+            "Tuners Vehicle"
+        ],
+        "top_speed_game_files": 0,
+        "weight": 1448,
+        "drivetrain": "All-Wheel Drive",
+        "gears": 5,
+        "modifications": [
+            "Los Santos Customs",
+            "LS Car Meet Mod Shop"
+        ],
+        "based_on": "Toyota Celica",
+        "top_speed_real": 121.25,
+        "game_model_name": null
+    },
+    {
         "id": "3102",
         "name": "ZR380 (Arena)",
         "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/sports/main/resized/zr-380_320x180.jpg",
@@ -1300,7 +2031,7 @@
         "braking": 62.448341,
         "handling": 0.594859,
         "overall_rating": 55.63701125,
-        "seats": 10,
+        "seats": 2,
         "available_from": [
             "Warstock Cache & Carry"
         ],
@@ -2073,7 +2804,8 @@
         "name": "Invade and Persuade RC Tank",
         "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/military/main/resized/invade-persuade-tank_320x180.jpg",
         "vehicle_class": [
-            "Military"
+            "Military",
+            "Remote Control"
         ],
         "manufacturer": null,
         "release_date": 1577228400,
@@ -4307,7 +5039,8 @@
         "name": "RC Bandito",
         "thumbnail": "https://www.gtabase.com/images/gta-5/vehicles/off-road/main/resized/rc-bandito_320x180.jpg",
         "vehicle_class": [
-            "Off-Road"
+            "Off-Road",
+            "Remote Control"
         ],
         "manufacturer": null,
         "release_date": 1548716400,
@@ -4328,8 +5061,8 @@
         "resale_sell_price": 0,
         "stolen_sell_price": 0,
         "storage_location": [
-            "Arena Workshop",
-            "Interaction Menu"
+            "Interaction Menu",
+            "Arena Workshop"
         ],
         "vehicle_features": [
             "Remote Controlled Vehicle"
@@ -8733,7 +9466,7 @@
         "overall_rating": 47.2106465,
         "seats": 4,
         "available_from": [
-            "Can be stolen / found"
+            "Cannot be acquired"
         ],
         "purchase_price": 0,
         "sell": [
@@ -8742,7 +9475,7 @@
         "resale_sell_price": 0,
         "stolen_sell_price": 0,
         "storage_location": [
-            "Garage (Personal Vehicle)"
+            "Cannot be stored"
         ],
         "vehicle_features": null,
         "top_speed_game_files": 0,
@@ -11131,7 +11864,7 @@
         "modifications": [
             "Benny's Original Motor Works"
         ],
-        "based_on": "Lexus IS, Mitsubishi Lancer Evo VI, Subaru Imprezza",
+        "based_on": "Lexus IS, Mitsubishi Lancer Evo VI, Subaru Impreza",
         "top_speed_real": 117.25,
         "game_model_name": "sultanrs"
     },
@@ -13202,7 +13935,7 @@
             "Los Santos Customs",
             "Benny's Original Motor Works"
         ],
-        "based_on": "Lexus IS, Mitsubishi Lancer Evo VI, Subaru Imprezza",
+        "based_on": "Lexus IS, Mitsubishi Lancer Evo VI, Subaru Impreza",
         "top_speed_real": 115.75,
         "game_model_name": "sultan"
     },
@@ -14499,7 +15232,9 @@
         "storage_location": [
             "Garage (Personal Vehicle)"
         ],
-        "vehicle_features": null,
+        "vehicle_features": [
+            "Stock Car"
+        ],
         "top_speed_game_files": 0,
         "weight": 1550,
         "drivetrain": "Rear-Wheel Drive",
@@ -18331,7 +19066,7 @@
             "Off-Road"
         ],
         "manufacturer": "HVY",
-        "release_date": 1425945600,
+        "release_date": 1425942000,
         "title_update": "1.21 Heists DLC",
         "speed": 69.751678,
         "acceleration": 50,
@@ -18352,8 +19087,8 @@
             "Pegasus Vehicle"
         ],
         "vehicle_features": [
-            "Armed Vehicle",
-            "Armored Vehicle"
+            "Armored Vehicle",
+            "Armed Vehicle"
         ],
         "top_speed_game_files": 0,
         "weight": 8600,
@@ -19068,7 +19803,7 @@
         "modifications": [
             "Benny's Original Motor Works"
         ],
-        "based_on": " 1977-79 Lincoln Continental Mark V",
+        "based_on": "1977-79 Lincoln Continental Mark V",
         "top_speed_real": 104,
         "game_model_name": "virgo2"
     },
@@ -19306,7 +20041,9 @@
         "storage_location": [
             "Garage (Personal Vehicle)"
         ],
-        "vehicle_features": null,
+        "vehicle_features": [
+            "Stock Car"
+        ],
         "top_speed_game_files": 0,
         "weight": 1650,
         "drivetrain": "Rear-Wheel Drive",
@@ -20005,7 +20742,9 @@
         "storage_location": [
             "Garage (Personal Vehicle)"
         ],
-        "vehicle_features": null,
+        "vehicle_features": [
+            "Stock Car"
+        ],
         "top_speed_game_files": 0,
         "weight": 1500,
         "drivetrain": "Rear-Wheel Drive",
@@ -20293,7 +21032,9 @@
         "storage_location": [
             "Garage (Personal Vehicle)"
         ],
-        "vehicle_features": null,
+        "vehicle_features": [
+            "Stock Car"
+        ],
         "top_speed_game_files": 0,
         "weight": 1500,
         "drivetrain": "Rear-Wheel Drive",
@@ -20322,9 +21063,9 @@
         "overall_rating": 61.2871065,
         "seats": 2,
         "available_from": [
-            "Can be stolen / found",
+            "ArenaWar.tv",
             "Southern S.A. Super Autos",
-            "ArenaWar.tv"
+            "Can be stolen / found"
         ],
         "purchase_price": 35000,
         "sell": [
@@ -21417,8 +22158,8 @@
         "resale_sell_price": 598500,
         "stolen_sell_price": 0,
         "storage_location": [
-            "Garage (Personal Vehicle)",
-            "MC Clubhouse"
+            "MC Clubhouse",
+            "Garage (Personal Vehicle)"
         ],
         "vehicle_features": [
             "KERS Boost"

@@ -45,7 +45,7 @@ function saveCarsData(cars) {
         car.modifications = get(car, 'attr.ct63.frontend_value', null);
         car.based_on = get(car, 'attr.ct72.frontend_value', null);
         car.top_speed_real = getFloat(car, 'attr.ct132.frontend_value', 0);
-        car.game_model_name = car.attr.ct348.frontend_value;
+        car.game_model_name = get(car, 'attr.ct348.frontend_value', null);
         delete car.attr;
         results.push(car);
     }
