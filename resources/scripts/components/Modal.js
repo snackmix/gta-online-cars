@@ -7,7 +7,7 @@ class Modal {
         this.props = props || {};
         this.events = {};
         this.closable = true;
-        this.width = 0.5;
+        this.width = 0.8;
     }
 
     event(name, event) {

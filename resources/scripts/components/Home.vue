@@ -70,7 +70,7 @@
                         <div class="col-md-3">
                             <span class="manufacturer" v-if="car.manufacturer">{{ car.manufacturer }}</span>
                             <span class="seats">{{ car.seats }}</span>
-                            <b-img-lazy :src="car.thumbnail" class="card-img"></b-img-lazy>
+                            <b-img-lazy :src="getThumbnail(car)" class="card-img"></b-img-lazy>
                         </div>
                         <div class="col-md-9">
                             <div class="card-body py-0">
@@ -140,7 +140,8 @@
                     page: 1,
                     per_page: 50
                 },
-                cars: new Array
+                cars: new Array,
+                thumbnails: new Object
             };
         },
         watch: {
@@ -214,6 +215,9 @@
             }
         },
         methods: {
+            getThumbnail(car) {
+                return get(this.thumbnails, car.id);
+            },
             openDetails(car) {
                 new Modal(this, CarDetails, {
                     car: car
@@ -227,6 +231,7 @@
             },
             load() {
                 axios.get('data.json').then(resp => this.cars = resp.data);
+                axios.get('thumbnails.json').then(resp => this.thumbnails = resp.data);
             },
             registerEvents() {
                 const sm = this;

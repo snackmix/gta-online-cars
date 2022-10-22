@@ -1,15 +1,15 @@
 const fs = require('fs');
 const axios = require('axios');
-const {format} = require('util');
-const {get, round} = require('lodash');
+const {get, set, round} = require('lodash');
 
-axios.get('https://www.gtabase.com/media/com_jamegafilter/en_gb/1.json').then(function (response) {
+axios.get('https://www.gtabase.com/media/com_jamegafilter/en_gb/1.json').then(async function (response) {
     const cars = Object.values(response.data);
-    saveCarsData(cars);
+    await saveCarsData(cars);
 });
 
-function saveCarsData(cars) {
+async function saveCarsData(cars) {
     const results = new Array;
+    const thumbnails = new Object;
     for (const car of cars) {
         delete car.access;
         delete car.catid;
@@ -20,7 +20,15 @@ function saveCarsData(cars) {
         delete car.slug;
         delete car.thumbnail_height;
         delete car.thumbnail_width;
-        car.thumbnail = format('https://www.gtabase.com/%s', car.thumbnail);
+        const response = await axios.get(`https://www.gtabase.com/${car.thumbnail}`, {
+            responseType: 'arraybuffer',
+            headers: {
+                'Referer': 'https://www.gtabase.com'
+            }
+        });
+        const encode = Buffer.from(response.data, 'binary').toString('base64');
+        set(thumbnails, car.id, `data:image/jpeg;base64,${encode}`);
+        delete car.thumbnail;
         car.vehicle_class = car.attr.ct1.frontend_value;
         car.manufacturer = get(car, 'attr.ct2.frontend_value.0', null);
         car.release_date = get(car, 'attr.ct3.frontend_value.0');
@@ -31,7 +39,7 @@ function saveCarsData(cars) {
         car.handling = floatRound(car, 'attr.ct9.frontend_value', 0);
         car.overall_rating = floatRound(car, 'attr.ct10.frontend_value', 0);
         car.seats = getInteger(car, 'attr.ct11.frontend_value.0', 0);
-        car.available_from = car.attr.ct12.frontend_value;
+        car.available_from = get(car, 'attr.ct12.frontend_value', null);
         car.purchase_price = getInteger(car, 'attr.ct13.frontend_value', 0);
         car.sell = car.attr.ct14.frontend_value;
         car.resale_sell_price = getInteger(car, 'attr.ct15.frontend_value', 0);
@@ -46,10 +54,12 @@ function saveCarsData(cars) {
         car.based_on = get(car, 'attr.ct72.frontend_value', null);
         car.top_speed_real = getFloat(car, 'attr.ct132.frontend_value', 0);
         car.game_model_name = get(car, 'attr.ct348.frontend_value', null);
+        car.delivery_methods = get(car, 'attr.ct522.frontend_value', null);
         delete car.attr;
         results.push(car);
     }
     writeJsonFile('public/data.json', results);
+    writeJsonFile('public/thumbnails.json', thumbnails);
 }
 
 function writeJsonFile(name, data) {
